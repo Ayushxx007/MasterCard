@@ -1,0 +1,95 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  color:white;
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  font-family: 'Courier New', Courier, monospace;
+
+
+  
+
+  
+  
+}
+.container{
+ 
+  height:100vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: #000;
+  border:2px solid #000;
+  width: 450px;
+  height: 275px;
+  border-radius: 20px;
+
+
+}
+
+.inside{
+  height:33%;
+  width:100%;
+}
+.inside1{
+  height:33%;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+img{
+  width: 65px;
+  height: 65px;
+  margin: 15px;
+ 
+  object-fit: contain;
+}
+.left{
+  display: flex;
+ 
+  align-items: center;
+}
+.inside2{
+  margin-left: 15px;
+  height:33%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+ 
+}
+.inside3{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right1{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  font-size: 25px;
+  
+  
+}
+.left1{
+  margin: 15px;
+  font-size: 25px;
+}
+
+#no{
+  margin-bottom:3px;
+
+}
+ 
+ 
+
